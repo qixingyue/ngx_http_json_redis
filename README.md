@@ -12,3 +12,9 @@ An module get json data from redis and render it with tpl from shm.
 	php init.php 
 
 	That will write some k,v json_array to redis.
+
+* Uri config
+	
+	ngx_http_redis_module.h
+
+	It has some 	ngx_http_redis_uri_config struct ,will config how to get key from uri , and sharememoryId 
