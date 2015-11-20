@@ -18,3 +18,6 @@ An module get json data from redis and render it with tpl from shm.
 	ngx_http_redis_module.h
 
 	It has some 	ngx_http_redis_uri_config struct ,will config how to get key from uri , and sharememoryId 
+
+
+* Thanks to https://github.com/HoopCHINA/ngx_http_redis
